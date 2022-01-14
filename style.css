@@ -1,0 +1,119 @@
+
+@font-face{
+    font-family: digital-7;
+    src: url(./fonts/digital-7/digital-7\ \(mono\ italic\).ttf);
+}
+span{
+    font-family: digital-7;
+}
+
+/* sign up form css */
+
+#signup{
+    padding: 5px 30px;
+    font-size: 25px;
+  
+   
+}
+
+
+.clock{
+    width: 340px;
+    margin:auto;
+    background-image: url(./img/digital-wristwatch-blank-background-vector-260nw-453347410.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 75px 120px;
+    background-position: center;
+
+}
+
+.hours{
+    font-size: 20px;
+    margin-left: 5px;
+    color: white;
+}
+
+.min{
+    font-size: 18px;
+    color: white;
+}
+
+.sec{
+    font-size: 15px;
+    color:white;
+    
+}
+
+.day{
+    font-size: 18px;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    
+    
+
+}
+
+
+.ampm{
+    font-size: 15px;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-right: 3px;
+    
+
+}
+
+.date2{
+    font-size: 13px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.clock-body{
+    background-image: url(./img/hiroko-yoshii-C8X9mV6JlEA-unsplash.jpg\ fish.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 7px;
+    margin-top: 7px;
+   
+
+}
+
+
+/* Counter with loder */
+
+.lod{
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: -30px;
+}
+
+
+.loder{
+    width: 100%;
+    height: 30px;
+    background-color: blue;
+    border-radius: 100PX;
+  
+    
+}
+
+/* Result Cheak css  */
+
+
+#resultcheak{
+    font-size: 25px;
+    box-shadow: 2.5px 4.33px 30px 0  rgb(201, 235, 248); 
+    border-radius: 5px;
+    border: 1px solid cadetblue;
+   
+}
